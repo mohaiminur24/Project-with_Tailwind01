@@ -9,15 +9,44 @@
     <!-- google font file -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <!-- tailwind file -->
     <script src="https://cdn.tailwindcss.com"></script>
-
-
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                yellow: '#FECC02',
+              },
+              fontFamily: {
+                one : ['Bebas Neue', "cursive"],
+                two : ['Montserrat', "sans-serif"],
+              },
+            },
+          },
+        }
+      </script>
     <title>Website design with Tailwind</title>
 </head>
 <body>
 
+<!-- Navber section start -->
+
+<div class="container mx-auto py-5 bg-white flex justify-between items-center flex-col gap-3 lg:flex-row">
+    <h1 class="font-bold font-one text-3xl">MohaiMinur</h1>
+    <div>
+        <ul class="flex gap-5 font-semibold">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Our Moive</a></li>
+        </ul>
+    </div>
+</div>
+
+
+<!-- banner section start -->
 
 
 
@@ -30,7 +59,8 @@
 
 
 
-    
+
+
     
 </body>
 </html>
