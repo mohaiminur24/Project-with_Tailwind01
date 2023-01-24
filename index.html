@@ -63,11 +63,13 @@
 
 <!-- About us section start -->
 <div class="container mx-auto h-fit my-20 p-10 border border-black">
-    <div class="flex gap-10">
+    <div class="flex gap-10 flex-wrap lg:flex-nowrap">
+
         <div class="w-full">
-            <img class="w-auto rounded-sm" src="images/camera-man.jpg" alt="camera man">
-            <p class="bg-white px-10 py-5 rounded-md w-4/5 text-center mx-auto -mt-8 shadow-md font-one text-2xl">23 years of experience</p>
+            <img class="w-auto rounded-sm z-10" src="images/camera-man.jpg" alt="camera man">
+            <p class="bg-white px-10 py-5 rounded-md w-4/5 text-center mx-auto -mt-8 shadow-md font-one text-2xl z-20 relative">23 years of experience</p>
         </div>
+
         <div>
             <h1 class="font-one">About us</h1>
             <h1 class="font-one text-6xl my-3">Fliming experience <br> just got better</h1>
@@ -76,7 +78,7 @@
         </div>
     </div>
 
-    <div class="my-5 flex gap-20">
+    <div class="my-5 flex flex-wrap lg:flex-nowrap gap-20">
       <div>
         <hr class="border border-black my-3">
         <h1 class="text-2xl font-bold font-one">Our vision</h1>
@@ -97,6 +99,28 @@
       </div>
     </div>
 </div>
+
+<!-- movie collection section start -->
+
+<div class="bg-gray-500 text-white">
+  <div class="container mx-auto h-fit font-one py-10">
+    <p class="text-center lg:text-left">our movies</p>
+    <div class="flex flex-col lg:flex-row justify-between items-center">
+      <h1 class="text-4xl">Movie collection</h1>
+      <button class="px-5 py-3 border border-white rounded-md">See more movies</button>
+    </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-4 justify-between gap-8 my-10">
+        <img class="border border-white p-5 rounded-md h-full" src="images/tenet.jpg" alt="">
+        <img class="border border-white p-5 rounded-md h-full" src="images/interstellar.jpg" alt="">
+        <img class="border border-white p-5 rounded-md h-full" src="images/inception.jpg" alt="">
+        <img class="border border-white p-5 rounded-md h-full" src="images/fractured.jpg" alt="">
+      </div>
+  
+  </div>
+</div>
+
+
 
 
 
